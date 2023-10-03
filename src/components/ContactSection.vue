@@ -11,7 +11,7 @@ export default {
 <template>
   <section class="container--centered spacing--large" id="contact">
     <div class="section__content">
-      <img src="images/logo.svg" width="80" alt="Section Image" class="section__image" />
+      <img src="../assets/icons/logo.svg" width="80" alt="Section Image" class="section__image" />
 
       <p class="title--small spacing--sides">
         Have I caught your attention up to this point? <br /><br />JustWatch my contacts:
