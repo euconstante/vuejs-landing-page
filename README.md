@@ -1,51 +1,42 @@
-# toEat
+# Vue.js personalized Cover Letter
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to my personalized landing page, which serves as a cover letter for the Frontend Position at JustWatch. Here, I'll introduce myself and showcase my qualifications for this exciting role.
 
-## Recommended IDE Setup
+## Description
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This personalized landing page has been designed to present my qualifications and experience for the Frontend Position at JustWatch. It serves as an interactive cover letter, highlighting my skills, achievements, and dedication to joining the JustWatch team. As you explore this page, you'll find valuable insights into my capabilities and my commitment to contributing to JustWatch's mission.
 
-## Type Support for `.vue` Imports in TS
+## Technologies
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+I have leveraged the following technologies and methodologies in crafting this landing page:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- [Vue.js](https://vuejs.org/): The progressive JavaScript framework for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/): A statically typed superset of JavaScript for enhanced code quality.
+- [Vite](https://vitejs.dev/): The fast, opinionated frontend build tool that powers this project.
+- [BEM (Block Element Modifier)](https://getbem.com/introduction/) Conventions: A methodology for writing clean, maintainable, and scalable CSS.
+- [Netfly Deploy](https://www.netlify.com/)
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Installation
 
-## Customize configuration
+Clone the repository to your local machine:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clone the repository to your local machine:
 
-## Project Setup
+   ```bash
+   git clone https://github.com/euconstante/vuejs-landing-page.git
+   ```
 
-```sh
-npm install
-```
+2. Install the necessary dependencies:
 
-### Compile and Hot-Reload for Development
+   ```bash
+   cd app
+   npm install
+   ```
 
-```sh
-npm run dev
-```
+3. Start the development server:
 
-### Type-Check, Compile and Minify for Production
+   ```bash
+   npm run dev
+   ```
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
-## Photos
-
-- Home Page
-    - Photo by Andres Ayrton: https://www.pexels.com/photo/woman-showing-apple-and-bitten-doughnut-6551415/
+4. Open your web browser and navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000/) to access the application.
