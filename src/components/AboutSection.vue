@@ -3,6 +3,15 @@ import { defineComponent } from 'vue'
 import CardCarousel from './CardCarousel.vue'
 import CardMovie from './CardMovie.vue'
 
+import hickingImg from '@/assets/images/hicking.png'
+import drawingImg from '@/assets/images/drawing.png'
+import dancingImg from '@/assets/images/dancing.png'
+import fleabagImg from '@/assets/images/fleabag.jpeg'
+import shutterImg from '@/assets/images/shutter-island.jpg'
+import officeImg from '@/assets/images/the-office.jpg'
+import trueImg from '@/assets/images/true-detective.jpeg'
+import onepieceImg from '@/assets/images/onepiece.jpeg'
+
 import '../assets/styles/components/AboutSection.css'
 
 export default defineComponent({
@@ -12,7 +21,7 @@ export default defineComponent({
   },
   data() {
     return {
-      carouselImages: ['images/hicking.png', 'images/dancing.png', 'images/drawing.png'],
+      carouselImages: [hickingImg, dancingImg, drawingImg],
       carouselText: [
         "It's essential to find a work-life balance and connect with nature. To do that, I love camping, hiking, and exploring!",
         'Love being in touch with culture, and last year, I started to get involved in the world of dance!',
@@ -21,19 +30,19 @@ export default defineComponent({
       carouselTitle: ['Hicking', 'Dancing', 'Drawing'],
       cardItems: [
         {
-          image: 'images/fleabag.jpeg',
+          image: fleabagImg,
         },
         {
-          image: 'images/shutter-island.jpg',
+          image: shutterImg,
         },
         {
-          image: 'images/onepiece.jpeg',
+          image: onepieceImg,
         },
         {
-          image: 'images/the-office.jpg',
+          image: officeImg,
         },
         {
-          image: 'images/true-detective.jpeg',
+          image: trueImg,
         },
       ],
     }
@@ -63,7 +72,7 @@ export default defineComponent({
           contributing to my achievements.
         </p>
         <figure class="spacing--sides">
-          <img class="about-section__avatar spacing" src="images/profile.png" width="250px" />
+          <img class="about-section__avatar spacing" src="../assets/images/profile.png" width="250px" />
         </figure>
         <p class="about-section__text container--small">
           I'm currently based in Brazil-SC and have lived with 30+ people, fostering sociability. Early independence and

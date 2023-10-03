@@ -61,7 +61,7 @@ export default {
     </div>
 
     <figure>
-      <img class="hero__image" src="/images/global-home-bg-comp.png" />
+      <img class="hero__image" src="../assets/images/global-home-bg-comp.png" />
     </figure>
 
     <div class="hero__gradient gradient"></div>
