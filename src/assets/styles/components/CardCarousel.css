@@ -1,0 +1,73 @@
+.card-carousel {
+  position: relative;
+  width: 90%;
+  overflow: hidden;
+}
+
+.card-carousel__container {
+  display: flex;
+  overflow: hidden;
+  border-radius: 1.25rem;
+}
+
+.card-carousel__slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card-carousel__slide {
+  flex: 0 0 100%;
+  width: 100%;
+  transition: transform 0.5s ease;
+  position: relative;
+}
+
+.card-carousel__image {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  display: block;
+  opacity: 0.6;
+}
+
+.card-carousel__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-carousel__title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-carousel__indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.card-carousel__indicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--text-color-light);
+  margin: 0 0.3125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-carousel__indicator.active {
+  background-color: var(--accent-color);
+}
+.card-carousel__gradient-radial {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-image: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.606) 100%);
+  z-index: 0;
+}

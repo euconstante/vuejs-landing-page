@@ -1,0 +1,46 @@
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.subtitle {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.title--small {
+  font-size: 24px;
+  font-weight: 900;
+}
+.description--medium {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.subtitle--small {
+  font-size: 16px;
+  font-weight: 700;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+}
+.link {
+  color: var(--primary-color);
+}
+
+@media (max-width: 1300px) {
+  .title {
+    font-size: 45px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 32px;
+  }
+}

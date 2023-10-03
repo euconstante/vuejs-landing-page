@@ -1,0 +1,20 @@
+.icon--large {
+  width: 120px;
+}
+
+@media (max-width: 1300px) {
+  .icon--small {
+    width: 90px;
+  }
+}
+
+@media (max-width: 800px) {
+  .icon--small {
+    width: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .icon--small {
+    width: 40px;
+  }
+}

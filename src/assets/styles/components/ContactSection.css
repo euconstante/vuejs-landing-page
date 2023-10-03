@@ -1,0 +1,19 @@
+.section__content {
+  display: flex;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.section__image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.contact__link {
+  color: white;
+}

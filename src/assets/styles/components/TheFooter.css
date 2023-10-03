@@ -1,0 +1,10 @@
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem; /* Adjust the height as needed */
+  padding: 20px;
+  color: #999c9f;
+  line-height: 1.5rem;
+}

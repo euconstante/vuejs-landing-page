@@ -1,0 +1,26 @@
+/* Block Styles */
+.button {
+  padding: 15px 30px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Element Modifier Styles */
+.button--primary {
+  background-color: #fbc500;
+  color: black;
+  border: none;
+  outline: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button--secondary {
+  color: #999c9f;
+  border: 1px solid #999c9f;
+  margin-left: 2rem;
+}

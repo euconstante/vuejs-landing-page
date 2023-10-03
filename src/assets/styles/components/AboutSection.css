@@ -1,0 +1,62 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  object-fit: cover;
+  justify-content: space-around;
+}
+.about-section__text {
+  text-align: center;
+}
+.about-profile {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  align-items: center;
+  line-height: 1.5rem;
+}
+
+.about-section__avatar {
+  border-radius: 8%;
+}
+
+hr {
+  border-top: 0.0625rem solid #657182;
+  width: 100%;
+}
+.about-slider {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  height: 70vh;
+  justify-content: space-around;
+}
+
+.about-movies {
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  width: 90%;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 1.875rem;
+}
+
+.about-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 1.875rem;
+}
+.link {
+  color: #78a6b8;
+}
