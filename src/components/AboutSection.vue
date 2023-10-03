@@ -66,7 +66,7 @@ export default defineComponent({
       <div class="about-profile container--mobile">
         <p class="about-section__text container--small">
           As you probably already know, I'm Bianca Guedert, a Brazilian woman, and a Master's degree holder in
-          engineering. I didn't come from a privileged background; in fact, I'm the first in my family to earn a degree
+          engineering. I didn't come from a privileged background, in fact, I'm the first in my family to earn a degree
           and the only one who speaks a second language. This is why learning is the most valuable tool for me. These
           are aspects you wouldn't typically find in a resume, but they have strongly shaped my values and mindset,
           contributing to my achievements.
@@ -75,11 +75,12 @@ export default defineComponent({
           <img class="about-section__avatar spacing" src="../assets/images/profile.png" width="250px" />
         </figure>
         <p class="about-section__text container--small">
-          I'm currently based in Brazil-SC and have lived with 30+ people, fostering sociability. Early independence and
-          diverse work experiences in sales, engineering, and finally transitioning to tech, the field I've always
-          wanted to be in. Now, I'm ready for the next chapter in my life and eager to embark on an international
-          career. This motivation extends beyond the professional realm; personally, I'm excited to embrace new
-          experiences and engage in cultural exchanges.
+          I'm currently based in Brazil, SC, and have lived with over 30 different people, who have contributed to my
+          social skills through shared experiences. I've always had to stand up for myself, which led to early
+          independence. With diverse work experiences in sales, engineering, and finally transitioning to tech, the
+          field I've always wanted to be in, I'm now ready for the next chapter in my life and eager to embark on an
+          international career. This motivation extends beyond the professional realm, personally, I'm excited to
+          embrace new experiences and forge global connections through cultural exchanges.
         </p>
       </div>
       <hr />
