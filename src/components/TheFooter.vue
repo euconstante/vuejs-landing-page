@@ -12,7 +12,7 @@ import '../assets/styles/components/TheFooter.css'
         <a class="link" href="https://www.typescriptlang.org/">TypeScript</a> and <span>&#128155;</span> by
         <a class="link" href="https://www.linkedin.com/in/biancaguedert/">Bianca Guedert</a>. <br /><a
           class="link"
-          href="https://github.com/euconstante/vue-landing-page"
+          href="https://github.com/euconstante/vuejs-landing-page"
           >Source Code</a
         >
       </p>
